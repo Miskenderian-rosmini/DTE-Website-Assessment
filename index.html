@@ -13,7 +13,89 @@
     </div>
     <div class="NavbarBottom">
         <button class="Button_Home" type="button">Home</button>
+        <button class="Button_Sport" type="button">Sports</button>
+        <button class="Button_Staff" type="button">Staff</button>
 
     </div>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2022_08_04_group-001.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2022_08_04_science-005.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2022_08_18_1580-1jpg.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2023_11_21_167a8265-2.jpg" style="width:100%">
+        <div class="text">Caption Four</div>
+      </div>
+  
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2023_11_21_group-library-image-aircraft-build-high-school-students.jpg" style="width:100%">
+        <div class="text">Caption Five</div>
+      </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+     dots[slideIndex-1].className += " active";
+    }
+  </script>
+
+<div class="Four_img">
+    <img class="img_1" src="../DTE-Website-Assessment/Images/Josh Aims.png">
+    <img class="img_2" src="../DTE-Website-Assessment/Images/images.jpg">
+    <img class="img_3" src="../DTE-Website-Assessment/Images/Antonio-Rosmini-wiki-678x380.jpg">
+    <img class="img_4" src="../DTE-Website-Assessment/Images/73e5fd8f-41f9-428a-960c-9af90ac00b4c_wo.jpg">
+</div>
 </body>
 </html>
