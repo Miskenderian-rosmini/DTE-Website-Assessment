@@ -171,5 +171,12 @@
 
 .img_4{
     height: 100px;
-    width: auto;
+    width: 180px;
 }
+
+.background{
+  background-image: url(./Images/background.jpg);
+  background-size: cover;
+  padding-bottom: 800px;
+}
+
