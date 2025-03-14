@@ -1,0 +1,26 @@
+
+.navbar {
+    width: 100%;
+    background-color: #1238b4;
+    overflow: auto;
+  }
+  
+
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #910b0b;
+  }
+  
+
+  .active {
+    background-color: #910b0b;
+  }
+  
