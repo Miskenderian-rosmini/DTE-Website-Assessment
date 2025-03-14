@@ -16,11 +16,30 @@
   }
   
   .navbar a:hover {
-    background-color: #910b0b;
+    background-color: #931010;
   }
   
 
   .active {
-    background-color: #910b0b;
+    background-color: #0d2c94;
   }
   
+  .rosmini_img {
+    display: inline-block;
+    height: 100px;
+    width: auto;
+    vertical-align: middle;
+    margin-left: 350px; 
+}
+
+.sign_in {
+    display: inline-block;
+    height: 50px;
+    width: auto;
+    vertical-align: middle; 
+    float: right; 
+    margin-right: 50px; 
+    margin-top: 25px;
+}
+
+
