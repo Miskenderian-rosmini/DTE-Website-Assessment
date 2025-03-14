@@ -7,16 +7,117 @@
   <title>Document</title>
 </head>
 <body>
-
+  <body style="background-color:rgb(16, 44, 128);">
   <div class="navbar">
-    <a class="active" href="index.html"><i class="home"></i> Home</a>
-    <a href="Sports.html"><i class="sports"></i> Sports</a>
-    <a href="Staff.html"><i class="staff"></i> Staff</a>
     <img class="rosmini_img" src="bf943936-2268-41af-a752-0743089ef9b5_wo.png">
     <img class="sign_in" style="float: right;" src="download.png">
   </div> 
 
+  <div class="second_nav">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Sports.html">News</a></li>
+    <li><a href="Staff.html">Contact</a></li>
+  </ul>
+</div>
 
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2022_08_04_group-001.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
   </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2022_08_04_science-005.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2023_11_21_167a8265-2.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2022_08_18_1580-1jpg.jpg" style="width:100%">
+    <div class="text">Caption Four</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2023_11_21_group-library-image-aircraft-build-high-school-students.jpg" style="width:100%">
+    <div class="text">Caption Five</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+
+<script src="java.js">
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+} 
+</script>
+
+
+
+<div class="grid-container">
+  <div>
+    <img class="box1" src="../DTE-Website-Assessment/Antonio-Rosmini-wiki-678x380.jpg">
+    <img class="box1" src="../DTE-Website-Assessment/Images/rosmini-college-1st-xi_orig.jpg">
+</div>
+</div>
+
+<div class="grid-container2">
+  <div>
+    <img class="box2" src="../DTE-Website-Assessment/images (1).jpg">
+    <img class="box2" src="../DTE-Website-Assessment/images.jpg">
+</div>
+</div>
+
+
 </body>
 </html>

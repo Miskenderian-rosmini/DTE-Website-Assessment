@@ -13,7 +13,7 @@ git push
 
 ```
 
-## before you start 
+# before you start 
 ```bash
 
 git pull
