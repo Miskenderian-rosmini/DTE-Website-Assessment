@@ -24,11 +24,6 @@
     background-color: #931010;
   }
   
-
-  .active {
-    background-color: #0d2c94;
-  }
-  
   .rosmini_img {
     display: inline-block;
     height: 70px;
@@ -152,6 +147,7 @@ li {
   width: 1000px;
   margin-top: 100px;
   margin-left: 100px;
+  margin-right: 100px;
 }
 
 .grid-container2{
@@ -159,6 +155,7 @@ li {
   width: 1000px;
   margin-top: 55px;
   margin-left: 100px;
+  margin-right: 100px;
 }
 
 .box1{
@@ -169,4 +166,90 @@ li {
 .box2{
   height: 150px;
   width: 268px;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+h1{
+  color: red;
+  font-weight: bold;
+  background-color: white;
+  margin-left: 200px;
+}
+.white-box-thing{
+  width: 50%;
+  margin-left: 700px;
+  text-align: left;
+  background-color: white;
+}
+.eve{
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+}
+.date{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+.under{
+  color: blue;
+  font-size: 18px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+.card {
+  background: #d4d0d0;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-content {
+  max-width: 70%;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+.card h2 {
+  color: #004080;
+}
+.button {
+  display: inline-block;
+  background: #004080;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.notices {
+  background: #d4d0d0;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+.notices h2 {
+  color: red;
+}
+.notices p {
+  color: blue;
+  font-weight: bold;
+}
+.email-link {
+  color: blue;
+  text-decoration: underline;
 }
