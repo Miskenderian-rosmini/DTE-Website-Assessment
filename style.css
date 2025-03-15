@@ -147,7 +147,6 @@ li {
   width: 1000px;
   margin-top: 100px;
   margin-left: 100px;
-  margin-right: 100px;
 }
 
 .grid-container2{
@@ -155,7 +154,6 @@ li {
   width: 1000px;
   margin-top: 55px;
   margin-left: 100px;
-  margin-right: 100px;
 }
 
 .box1{
@@ -199,17 +197,17 @@ h1{
   font-size: 18px;
 }
 
-body {
+body{
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   margin: 0;
   padding: 20px;
 }
-.container {
+.grey-box{
   max-width: 900px;
   margin: auto;
 }
-.card {
+.Box{
   background: #d4d0d0;
   padding: 20px;
   border-radius: 15px;
@@ -218,16 +216,16 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.card-content {
+.Inside-box{
   max-width: 70%;
   background: white;
   padding: 15px;
   border-radius: 10px;
 }
-.card h2 {
+.Inside-Box h2{
   color: #004080;
 }
-.button {
+.button{
   display: inline-block;
   background: #004080;
   color: white;
@@ -236,20 +234,25 @@ body {
   border-radius: 5px;
   font-weight: bold;
 }
-.notices {
+.notices{
   background: #d4d0d0;
   padding: 20px;
   border-radius: 15px;
   text-align: center;
 }
-.notices h2 {
+.notices h2{
   color: red;
 }
-.notices p {
+.notices p{
   color: blue;
   font-weight: bold;
 }
-.email-link {
+.email-link{
   color: blue;
   text-decoration: underline;
+}
+
+.SchoolBridge-img{
+  height: 200px;
+  width: auto;
 }
