@@ -181,39 +181,79 @@ body{
     font-size: 25px;
   }
 
-        .grid-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            padding: 20px;
-        }
+  .grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+  }
 
-        .grid-container img {
-            width: auto;
-            height: 200px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
+  .grid-container img{
+    width: auto;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
 
-        .grid-container img:hover {
-            opacity: 0.1;
-        }
+  .grid-container img:hover{
+    opacity: 0.1;
+  }
 
-        /* Modal styles */
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            justify-content: center;
-            align-items: center;
-        }
+  .modal{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+  }
 
-        .modal-content {
-            position: relative;
-        }
+  .modal-content{
+    position: relative;
+  }
+
+.white-background1{
+  background-color: white;
+  border-radius: 20px;
+  max-width: 1300px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.inside-box, h2{
+  color: #b91d1d;
+  margin: 15px;
+}
+
+.inside-box, p{
+  color: #0d229b;
+  margin: 15px;
+}
+
+.button{
+  margin: 15px;
+  color: #0d229b;
+}
+
+.email-link{
+  color: #0d229b;
+}
+
+.SchoolBridge-img{
+  height: 80px;
+  width: auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(19, 28, 79);
+  color: white;
+}
 
 
