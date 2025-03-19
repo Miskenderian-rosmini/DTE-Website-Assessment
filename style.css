@@ -1,274 +1,373 @@
 body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(16, 44, 128);
-    color: white;
-  }
-  
-  h1{
-    color: #fff;
-  }
-  
-  h2{
-    color: #fff;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(16, 44, 128);
+  color: white;
+}
 
-  a{
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  a:hover{
-    color: #ffd700;
-  }
-  
+h1{
+  color: #fff;
+}
 
-  .navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: rgb(19, 28, 79);
-  }
-  
-  .rosmini_img{
-    width: auto;
-    height: 100px;
-  }
-  
-  .sign_in{
-    width: auto;
-    height: 100px;
-    margin-top: 10px;
-  }
+h2{
+  color: #fff;
+}
 
-  .second_nav{
-    background-color: rgb(10, 14, 39);
-    padding: 10px 0;
-  }
-  
-  .second_nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
-  
-  .second_nav ul li{
-    margin: 0 20px;
-  }
-  
-  .second_nav ul li a{
-    color: #fff;
-    font-size: 16px;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  .second_nav ul li a:hover{
-    background-color: #1f3d74;
-  }
-  
 
-  .slideshow-container{
-    position: relative;
-    max-width: 100%;
-    margin: auto;
-  }
-  
-  .mySlides{
-    display: none;
-  }
-  
-  .mySlides img{
-    width: 100%;
-  }
-  
-  .numbertext{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: black;
-    color: #fff;
-    padding: 10px;
-  }
-  
-  .text{
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background-color: black;
-    color: #fff;
-    padding: 5px;
-  }
-  
-  .prev, .next{
-    position: absolute;
-    top: 50%;
-    font-size: 24px;
-    color: #fff;
-    padding: 16px;
-    background-color: black;
-    border: none;
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  .prev{
-    left: 0;
-  }
-  
-  .next{
-    right: 0;
-  }
-  
-  .dot{
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .dot.active{
-    background-color: #717171;
-  }
-  
-  .grid-container{
-    display: grid;
-    padding: 20px;
-    margin-left: 180px;
-  }
+a{
+  color: #fff;
+  text-decoration: none;
+}
 
-  .box1{
-    width: auto;
-    height: 150px;
-    border-radius: 8px;
-  }
+a:hover{
+  color: #ffd700;
+}
 
-  .box2{
-    width: 250px;
-    height: 150px;
-    border-radius: 8px;
-  }
 
-  .white-box-thing{
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-  }
-  
-  .white-box-thing h1{
-    color: #000;
-  }
-  
-  .eve{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
 
-  .date{
-    color: #b91d1d;
-  }
-  
-  .under{
-    color: #0d229b;
-    font-size: 25px;
-  }
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(19, 28, 79);
+}
 
-  .grid-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding: 20px;
-  }
+.rosmini_img{
+  width: auto;
+  height: 100px;
+}
 
-  .grid-container img{
-    width: auto;
-    height: 200px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
+.sign_in{
+  width: auto;
+  height: 100px;
+  margin-top: 10px;
+}
 
-  .grid-container img:hover{
-    opacity: 0.1;
-  }
 
-  .modal{
-    display: none;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    align-items: center;
-  }
+.second_nav{
+  background-color: rgb(10, 14, 39);
+  padding: 10px 0;
+}
 
-  .modal-content{
-    position: relative;
-  }
+.second_nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.second_nav ul li{
+  margin: 0 20px;
+}
+
+.second_nav ul li a{
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.second_nav ul li a:hover{
+  background-color: #1f3d74;
+}
+
+
+
+.slideshow-container{
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.mySlides{
+  display: none;
+}
+
+.mySlides img{
+  width: 100%;
+}
+
+.numbertext{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+}
+
+.text{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: black;
+  color: #fff;
+  padding: 5px;
+}
+
+.prev, .next{
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  color: #fff;
+  padding: 16px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.prev{
+  left: 0;
+}
+
+.next{
+  right: 0;
+}
+
+.dot{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot.active{
+  background-color: #717171;
+}
+
+.grid-container{
+  display: grid;
+  padding: 20px;
+  margin-left: 180px;
+}
+
+
+.box1{
+  width: auto;
+  height: 150px;
+  border-radius: 8px;
+}
+
+
+.box2{
+  width: 250px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+
+.white-box-thing{
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.white-box-thing h1{
+  color: #000;
+}
+
+.eve{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.date{
+  color: #b91d1d;
+}
+
+.under{
+  color: #0d229b;
+  font-size: 25px;
+}
+
+
+.grid-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+
+.grid-container img{
+  width: auto;
+  height: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.grid-container img:hover{
+  opacity: 0.1;
+}
+
+
+.modal{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal-content{
+  position: relative;
+}
+
 
 .white-background1{
-  background-color: white;
-  border-radius: 20px;
-  max-width: 1300px;
-  margin-left: 75px;
-  margin-right: 75px;
+background-color: white;
+border-radius: 20px;
+max-width: 1300px;
+margin-left: 75px;
+margin-right: 75px;
 }
+
 
 .inside-box, h2{
-  color: #b91d1d;
-  margin: 15px;
+color: #b91d1d;
+margin: 15px;
 }
+
 
 .inside-box, p{
-  color: #0d229b;
-  margin: 15px;
+color: #0d229b;
+margin: 15px;
 }
+
 
 .button{
-  margin: 15px;
-  color: #0d229b;
+margin: 15px;
+color: #0d229b;
 }
+
 
 .email-link{
-  color: #0d229b;
+color: #0d229b;
 }
+
 
 .SchoolBridge-img{
-  height: 80px;
-  width: auto;
+height: 80px;
+width: auto;
 }
+
 
 .flex-container{
-  display: flex;
+display: flex;
 }
+
 
 footer{
-  text-align: center;
-  padding: 3px;
-  background-color: rgb(19, 28, 79);
-  color: white;
+text-align: center;
+padding: 3px;
+background-color: rgb(19, 28, 79);
+color: white;
 }
+
 
 .footertext{
-  color: white;
+color: white;
+font-size: 20px;
 }
+
 
 .img-background{
-  text-align: center;
-  margin-top: 20px;
+text-align: center;
+margin-top: 20px;
+border-radius: 30px;
+height: 300px;
+width: auto;
 }
+
 
 .text-background, p{
-  color: white;
-  font-size: 45px;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
 }
 
 
+.white-background1-text{
+color: #1d27b9;
+font-size: 25px;
+}
 
+.white-background2-text{
+  color: #1d27b9;
+  font-size: 25px;
+  padding: 10px;
+  }
+
+  .white-background2, h2{
+    color: #b60c0c;
+    font-size: 25px;
+    padding: 10px;
+    }
+
+.white-background2{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 1300px;
+    margin-left: 310px;
+    margin-right: 75px;
+    margin-top: 50px;
+}
+
+.notices2 {
+  display: flex;
+  flex-direction: row;
+}
+  
+.box1-sport{
+  width: auto;
+  height: 150px;
+  border-radius: 8px;
+}
+
+
+.box2-sport{
+  width: 250px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.grid-container-sport{
+  display: grid;
+  padding: 20px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.grid-container-sport img{
+  width: auto;
+  height: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.grid-container-sport img:hover{
+  opacity: 0.1;
+}
+
+.Athletics{
+  margin-left: 15px;
+}
+
+.Athletics-img{
+  height: 400px;
+  width: auto;
+}
