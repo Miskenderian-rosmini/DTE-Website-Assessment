@@ -245,15 +245,30 @@ body{
   width: auto;
 }
 
-.flex-container {
+.flex-container{
   display: flex;
 }
 
-footer {
+footer{
   text-align: center;
   padding: 3px;
   background-color: rgb(19, 28, 79);
   color: white;
 }
+
+.footertext{
+  color: white;
+}
+
+.img-background{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text-background, p{
+  color: white;
+  font-size: 45px;
+}
+
 
 
