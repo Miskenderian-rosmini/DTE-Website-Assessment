@@ -24,8 +24,6 @@ a:hover{
   color: #ffd700;
 }
 
-
-
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -222,7 +220,7 @@ a:hover{
 }
 
 
-.modal-content{
+.modal-stuff{
   position: relative;
 }
 
@@ -233,6 +231,7 @@ border-radius: 20px;
 max-width: 1300px;
 margin-left: 75px;
 margin-right: 75px;
+margin-bottom: 20px;
 }
 
 
@@ -346,9 +345,11 @@ font-size: 25px;
 
 .grid-container-sport{
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   padding: 20px;
-  margin-left: 400px;
+  margin-left: 150px;
   margin-top: 50px;
+  gap: 10px;
 }
 
 .grid-container-sport img{

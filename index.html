@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Home</title>
 </head>
 <body>
   <body style="background-color:rgb(16, 44, 128);">
   <div class="navbar">
     <img class="rosmini_img" src="../DTE-Website-Assessment/Images/logo.png">
     <img class="sign_in" style="float: right;" src="download.png">
-  </div> 
+  </div>
+
 
   <div class="second_nav">
   <ul>
@@ -23,7 +24,11 @@
 
 
 
+
+
+
 <div class="slideshow-container">
+
 
   <div class="mySlides fade">
     <div class="numbertext">1 / 5</div>
@@ -31,11 +36,13 @@
     <div class="text">Caption Text</div>
   </div>
 
+
   <div class="mySlides fade">
     <div class="numbertext">2 / 5</div>
     <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2022_08_04_science-005.jpg" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
+
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 5</div>
@@ -43,11 +50,13 @@
     <div class="text">Caption Three</div>
   </div>
 
+
   <div class="mySlides fade">
     <div class="numbertext">4 / 5</div>
     <img src="../DTE-Website-Assessment/Student Assessment Resource/Caurosel/2022_08_18_1580-1jpg.jpg" style="width:100%">
     <div class="text">Caption Four</div>
   </div>
+
 
   <div class="mySlides fade">
     <div class="numbertext">5 / 5</div>
@@ -56,10 +65,13 @@
   </div>
 
 
+
+
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
+
 
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
@@ -69,18 +81,23 @@
   <span class="dot" onclick="currentSlide(5)"></span>
 </div>
 
+
 <script src="java.js">
 let slideIndex = 1;
 showSlides(slideIndex);
+
+
 
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
 
 function showSlides(n) {
   let i;
@@ -96,8 +113,11 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-} 
+}
 </script>
+
+
+
 
 
 
@@ -110,6 +130,7 @@ function showSlides(n) {
 </div>
 </div>
 
+
     <div class="white-box-thing">
       <h1 >Up Coming Events</h1>
         <div class="eve">
@@ -117,26 +138,31 @@ function showSlides(n) {
             <div class="under">Pasifika NCEA Evening</div>
         </div>
 
+
         <div class="eve">
             <div class="date">4th March</div>
             <div class="under">Year 7 Meet the Teacher Evening</div>
         </div>
+
 
         <div class="eve">
             <div class="date">5th March</div>
             <div class="under">Ash Wednesday</div>
         </div>
 
+
         <div class="eve">
             <div class="date">6th March</div>
             <div class="under">College Orienteering</div>
         </div>
+
 
         <div class="eve">
             <div class="date">7th March</div>
             <div class="under">College Orienteering</div>
         </div>
     </div>
+
 
 <div class="flex-container">
   <div class="white-background1">
@@ -154,6 +180,8 @@ function showSlides(n) {
     </div>
 
 
+
+
   <div class="white-background1">
       <div class="notices">
           <h2>Daily Notices:</h2>
@@ -163,6 +191,7 @@ function showSlides(n) {
       </div>
   </div>
 </div>
+
 
 <footer>
   <p class="footertext">Contact Us
@@ -180,6 +209,7 @@ function showSlides(n) {
     rosmini.school.nz
     </p>
 </footer>
+
 
 </body>
 </html>
