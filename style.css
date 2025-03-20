@@ -6,13 +6,17 @@ body{
   color: white;
 }
 
+
 h1{
   color: #fff;
 }
 
+
 h2{
   color: #fff;
 }
+
+
 
 
 a{
@@ -20,9 +24,11 @@ a{
   text-decoration: none;
 }
 
+
 a:hover{
   color: #ffd700;
 }
+
 
 .navbar{
   display: flex;
@@ -31,10 +37,12 @@ a:hover{
   background-color: rgb(19, 28, 79);
 }
 
+
 .rosmini_img{
   width: auto;
   height: 100px;
 }
+
 
 .sign_in{
   width: auto;
@@ -43,10 +51,13 @@ a:hover{
 }
 
 
+
+
 .second_nav{
   background-color: rgb(10, 14, 39);
   padding: 10px 0;
 }
+
 
 .second_nav ul{
   list-style: none;
@@ -55,9 +66,11 @@ a:hover{
   margin: 0;
 }
 
+
 .second_nav ul li{
   margin: 0 20px;
 }
+
 
 .second_nav ul li a{
   color: #fff;
@@ -66,9 +79,13 @@ a:hover{
   border-radius: 5px;
 }
 
+
 .second_nav ul li a:hover{
   background-color: #1f3d74;
 }
+
+
+
 
 
 
@@ -78,13 +95,16 @@ a:hover{
   margin: auto;
 }
 
+
 .mySlides{
   display: none;
 }
 
+
 .mySlides img{
   width: 100%;
 }
+
 
 .numbertext{
   position: absolute;
@@ -95,6 +115,7 @@ a:hover{
   padding: 10px;
 }
 
+
 .text{
   position: absolute;
   bottom: 10px;
@@ -103,6 +124,7 @@ a:hover{
   color: #fff;
   padding: 5px;
 }
+
 
 .prev, .next{
   position: absolute;
@@ -116,13 +138,16 @@ a:hover{
   user-select: none;
 }
 
+
 .prev{
   left: 0;
 }
 
+
 .next{
   right: 0;
 }
+
 
 .dot{
   height: 15px;
@@ -134,15 +159,19 @@ a:hover{
   transition: background-color 0.6s ease;
 }
 
+
 .dot.active{
   background-color: #717171;
 }
+
 
 .grid-container{
   display: grid;
   padding: 20px;
   margin-left: 180px;
 }
+
+
 
 
 .box1{
@@ -152,11 +181,15 @@ a:hover{
 }
 
 
+
+
 .box2{
   width: 250px;
   height: 150px;
   border-radius: 8px;
 }
+
+
 
 
 .white-box-thing{
@@ -166,9 +199,11 @@ a:hover{
   border-radius: 8px;
 }
 
+
 .white-box-thing h1{
   color: #000;
 }
+
 
 .eve{
   display: flex;
@@ -178,14 +213,19 @@ a:hover{
 }
 
 
+
+
 .date{
   color: #b91d1d;
 }
+
 
 .under{
   color: #0d229b;
   font-size: 25px;
 }
+
+
 
 
 .grid-container{
@@ -196,6 +236,8 @@ a:hover{
 }
 
 
+
+
 .grid-container img{
   width: auto;
   height: 200px;
@@ -204,9 +246,13 @@ a:hover{
 }
 
 
+
+
 .grid-container img:hover{
   opacity: 0.1;
 }
+
+
 
 
 .modal{
@@ -220,9 +266,13 @@ a:hover{
 }
 
 
+
+
 .modal-stuff{
   position: relative;
 }
+
+
 
 
 .white-background1{
@@ -235,10 +285,14 @@ margin-bottom: 20px;
 }
 
 
+
+
 .inside-box, h2{
 color: #b91d1d;
 margin: 15px;
 }
+
+
 
 
 .inside-box, p{
@@ -247,15 +301,21 @@ margin: 15px;
 }
 
 
+
+
 .button{
 margin: 15px;
 color: #0d229b;
 }
 
 
+
+
 .email-link{
 color: #0d229b;
 }
+
+
 
 
 .SchoolBridge-img{
@@ -264,9 +324,13 @@ width: auto;
 }
 
 
+
+
 .flex-container{
 display: flex;
 }
+
+
 
 
 footer{
@@ -277,10 +341,14 @@ color: white;
 }
 
 
+
+
 .footertext{
 color: white;
 font-size: 20px;
 }
+
+
 
 
 .img-background{
@@ -292,6 +360,8 @@ width: auto;
 }
 
 
+
+
 .text-background, p{
 color: white;
 font-family: 'Times New Roman', Times, serif;
@@ -299,10 +369,13 @@ font-size: 50px;
 }
 
 
+
+
 .white-background1-text{
 color: #1d27b9;
 font-size: 25px;
 }
+
 
 .white-background2-text{
   color: #1d27b9;
@@ -310,11 +383,13 @@ font-size: 25px;
   padding: 10px;
   }
 
+
   .white-background2, h2{
     color: #b60c0c;
     font-size: 25px;
     padding: 10px;
     }
+
 
 .white-background2{
     background-color: white;
@@ -325,11 +400,12 @@ font-size: 25px;
     margin-top: 50px;
 }
 
+
 .notices2 {
   display: flex;
   flex-direction: row;
 }
-  
+ 
 .box1-sport{
   width: auto;
   height: 150px;
@@ -337,11 +413,14 @@ font-size: 25px;
 }
 
 
+
+
 .box2-sport{
   width: 250px;
   height: 150px;
   border-radius: 8px;
 }
+
 
 .grid-container-sport{
   display: grid;
@@ -352,6 +431,7 @@ font-size: 25px;
   gap: 10px;
 }
 
+
 .grid-container-sport img{
   width: auto;
   height: 200px;
@@ -360,15 +440,91 @@ font-size: 25px;
 }
 
 
+
+
 .grid-container-sport img:hover{
   opacity: 0.1;
 }
+
 
 .Athletics{
   margin-left: 15px;
 }
 
+
 .Athletics-img{
   height: 400px;
   width: auto;
+}
+
+.white-background3-text{
+  color: #1d27b9;
+  font-size: 25px;
+  padding: 10px;
+  }
+
+
+  .white-background3, h2{
+    color: #b60c0c;
+    font-size: 25px;
+    padding: 10px;
+    }
+
+
+.white-background3{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 1300px;
+    margin-left: 310px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Foong-img{
+  height: 400px;
+  width: auto;
+  border-radius: 200px;
+  padding-right: 10px;
+}
+
+.John-img{
+  height: 400px;
+  width: auto;
+  border-radius: 200px;
+}
+
+.two_img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.two_img, p{
+  color: #000;
+
+}
+
+.white-background4-text{
+  color: #1d27b9;
+  font-size: 25px;
+  padding: 10px;
+  }
+
+
+  .white-background4, h2{
+    color: #b60c0c;
+    font-size: 25px;
+    padding: 10px;
+    }
+
+
+.white-background4{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 1300px;
+    margin-left: 310px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
