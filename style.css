@@ -260,7 +260,7 @@ a:hover{
   position: fixed;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+
   justify-content: center;
   align-items: center;
 }
@@ -511,14 +511,6 @@ font-size: 25px;
   padding: 10px;
   }
 
-
-  .white-background4, h2{
-    color: #b60c0c;
-    font-size: 25px;
-    padding: 10px;
-    }
-
-
 .white-background4{
     background-color: white;
     border-radius: 20px;
@@ -527,4 +519,63 @@ font-size: 25px;
     margin-right: 75px;
     margin-top: 50px;
     margin-bottom: 20px;
+}
+
+.white-background5-text{
+  color: #1d27b9;
+  font-size: 25px;
+  padding: 10px;
+  }
+
+
+.white-background5{
+    background-color: white;
+    border-radius: 20px;
+    max-width: 1300px;
+    margin-left: 310px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.maggs-img{
+  height: 250px;
+  width: auto;
+  border-radius: 200px;
+}
+
+.morrogh-img{
+  height: 250px;
+  width: auto;
+  border-radius: 200px;
+}
+
+.latch-img{
+  height: 250px;
+  width: auto;
+  border-radius: 200px;
+}
+
+.cooper-img{
+  height: 250px;
+  width: auto;
+  border-radius: 200px;
+}
+
+.coopdawg {
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.coopdawg {
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.pragraph-Latchy{
+  font-size: 25px;
 }
