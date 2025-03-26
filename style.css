@@ -6,6 +6,7 @@ body{
   color: white;
 }
 
+
 h1{
   color: #fff;
 }
@@ -14,6 +15,9 @@ h1{
 h2{
   color: #fff;
 }
+
+
+
 
 a{
   color: #fff;
@@ -78,24 +82,27 @@ a:hover{
 
 .second_nav ul li a:hover{
   background-color: #1f3d74;
+  transition: background-color 0.5s;
 }
 
 .slideshow-container{
   position: relative;
-  max-width: 70%;
+  max-width: 100%;
   margin: auto;
+  margin-top: 50px;
+  width: 1000px;
+  border-style: solid;
+  border-width: 5px;
+  background-color: #ffffff;
 }
-
 
 .mySlides{
   display: none;
 }
 
-
 .mySlides img{
   width: 100%;
 }
-
 
 .numbertext{
   position: absolute;
@@ -163,89 +170,123 @@ a:hover{
 }
 
 .box1{
-  width: 400px;
-  height: 300px;
+  width: auto;
+  height: 150px;
   border-radius: 8px;
-  object-fit: cover;
 }
 
+.box1:hover {
+  cursor:pointer;
+}
 
 .box2{
-  width: 600px;
-  height: 300px;
+  width: auto;
+  height: 150px;
   border-radius: 8px;
-  object-fit: cover;
+}
+
+.box2:hover {
+  cursor:pointer;
 }
 
 .box1-sport{
   width: 400px;
-  height: 300px;
+  height: 150px;
   border-radius: 8px;
   object-fit: cover;
 }
 
+.box1-sport:hover {
+  cursor:pointer;
+}
 
 .box2-sport{
   width: 600px;
-  height: 300px;
+  height: 150px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.box2-sport:hover {
+  cursor:pointer;
 }
 
 .box3-sport{
   width: 484px;
-  height: 300px;
+  height: 150px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.box3-sport:hover {
+  cursor:pointer;
 }
 
 .box4-sport{
   width: 200px;
-  height: 300px;
+  height: 150px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.box4-sport:hover {
+  cursor:pointer;
 }
 
 .box5-sport{
-  width: 700px;
-  height: 300px;
+  width: 600px;
+  height: 150px;
   border-radius: 8px;
   object-fit: cover;
 }
 
+.box5-sport:hover {
+  cursor:pointer;
+}
+
 .box6-sport{
-  width: 584px;
-  height: 300px;
+  width: 684px;
+  height: 150px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.box6-sport:hover {
+  cursor:pointer;
 }
 
 .box7-sport{
   width: 600px;
-  height: 300px;
+  height: 150px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.box7-sport:hover {
+  cursor:pointer;
 }
 
 .box8-sport{
   width: 200px;
-  height: 300px;
+  height: 150px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.box8-sport:hover {
+  cursor:pointer;
 }
 
 .box9-sport{
   width: 684px;
-  height: 300px;
+  height: 150px;
   border-radius: 8px;
   object-fit: cover;
 }
 
-
-
-
-
-
+.box9-sport:hover {
+  cursor:pointer;
+}
 
 .white-box-thing{
   background-color: #fff;
@@ -304,7 +345,8 @@ a:hover{
 
 
 .grid-container img:hover{
-  opacity: 0.1;
+  opacity: 0.3;
+  transition: opacity 0.5s;
 }
 
 
@@ -315,13 +357,9 @@ a:hover{
   position: fixed;
   width: 100%;
   height: 100%;
-
   justify-content: center;
   align-items: center;
 }
-
-
-
 
 .modal-stuff{
   position: relative;
@@ -403,9 +441,6 @@ color: white;
 font-size: 20px;
 }
 
-
-
-
 .img-background{
 text-align: center;
 margin-top: 20px;
@@ -450,7 +485,7 @@ font-size: 25px;
     background-color: white;
     border-radius: 20px;
     max-width: 1300px;
-    margin-left: 290px;
+    margin-left: 310px;
     margin-right: 75px;
     margin-top: 50px;
 }
@@ -462,19 +497,20 @@ font-size: 25px;
 }
 
 .grid-container-sport{
+
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   padding: 20px;
-  margin-left: 170px;
+  margin-left: 150px;
   margin-top: 50px;
   gap: 10px;
   width: 1500px;
-  margin-bottom: 20px;
 }
 
 .grid-container-sport img:hover{
-  opacity: 0.3;
+  opacity: 0.5;
+  transition: opacity 0.5s;
 }
 
 
