@@ -6,7 +6,6 @@ body{
   color: white;
 }
 
-
 h1{
   color: #fff;
 }
@@ -15,9 +14,6 @@ h1{
 h2{
   color: #fff;
 }
-
-
-
 
 a{
   color: #fff;
@@ -84,14 +80,9 @@ a:hover{
   background-color: #1f3d74;
 }
 
-
-
-
-
-
 .slideshow-container{
   position: relative;
-  max-width: 100%;
+  max-width: 70%;
   margin: auto;
 }
 
@@ -171,23 +162,87 @@ a:hover{
   margin-left: 180px;
 }
 
-
-
-
 .box1{
-  width: auto;
-  height: 150px;
+  width: 400px;
+  height: 300px;
   border-radius: 8px;
+  object-fit: cover;
 }
-
-
 
 
 .box2{
-  width: 250px;
-  height: 150px;
+  width: 600px;
+  height: 300px;
   border-radius: 8px;
+  object-fit: cover;
 }
+
+.box1-sport{
+  width: 400px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+.box2-sport{
+  width: 600px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.box3-sport{
+  width: 484px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.box4-sport{
+  width: 200px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.box5-sport{
+  width: 700px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.box6-sport{
+  width: 584px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.box7-sport{
+  width: 600px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.box8-sport{
+  width: 200px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.box9-sport{
+  width: 684px;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+
 
 
 
@@ -395,7 +450,7 @@ font-size: 25px;
     background-color: white;
     border-radius: 20px;
     max-width: 1300px;
-    margin-left: 310px;
+    margin-left: 290px;
     margin-right: 75px;
     margin-top: 50px;
 }
@@ -405,48 +460,21 @@ font-size: 25px;
   display: flex;
   flex-direction: row;
 }
- 
-.box1-sport{
-  width: auto;
-  height: 150px;
-  border-radius: 8px;
-}
-
-
-
-
-.box2-sport{
-  width: 250px;
-  height: 150px;
-  border-radius: 8px;
-}
-
 
 .grid-container-sport{
-
-  background-color: #a7a7a7;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   padding: 20px;
-  margin-left: 150px;
+  margin-left: 170px;
   margin-top: 50px;
   gap: 10px;
   width: 1500px;
+  margin-bottom: 20px;
 }
-
-
-.grid-container-sport img{
-  width: auto;
-  height: 200px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-
-
 
 .grid-container-sport img:hover{
-  opacity: 0.1;
+  opacity: 0.3;
 }
 
 
