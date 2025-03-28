@@ -6,7 +6,6 @@ body{
   color: white;
 }
 
-
 h1{
   color: #fff;
 }
@@ -191,7 +190,7 @@ a:hover{
 
 .box1-sport{
   width: 400px;
-  height: 150px;
+  height: 350px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -202,7 +201,7 @@ a:hover{
 
 .box2-sport{
   width: 600px;
-  height: 150px;
+  height: 350px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -213,7 +212,7 @@ a:hover{
 
 .box3-sport{
   width: 484px;
-  height: 150px;
+  height: 350px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -224,7 +223,7 @@ a:hover{
 
 .box4-sport{
   width: 200px;
-  height: 150px;
+  height: 350px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -235,7 +234,7 @@ a:hover{
 
 .box5-sport{
   width: 600px;
-  height: 150px;
+  height: 350px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -246,7 +245,7 @@ a:hover{
 
 .box6-sport{
   width: 684px;
-  height: 150px;
+  height: 350px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -257,7 +256,7 @@ a:hover{
 
 .box7-sport{
   width: 600px;
-  height: 150px;
+  height: 350px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -268,7 +267,7 @@ a:hover{
 
 .box8-sport{
   width: 200px;
-  height: 150px;
+  height: 350px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -279,7 +278,7 @@ a:hover{
 
 .box9-sport{
   width: 684px;
-  height: 150px;
+  height: 350px;
   border-radius: 8px;
   object-fit: cover;
 }
@@ -427,14 +426,21 @@ display: flex;
 
 
 footer{
-text-align: center;
-padding: 3px;
-background-color: rgb(19, 28, 79);
-color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(19, 28, 79);
+  color: white;
+  display: flex;
+  flex-direction: row;
 }
 
 
-
+.footimg {
+  margin-top: 10px;
+  width: 200px;
+  height: auto;
+}
 
 .footertext{
 color: white;
@@ -484,8 +490,8 @@ font-size: 25px;
 .white-background2{
     background-color: white;
     border-radius: 20px;
-    max-width: 1300px;
-    margin-left: 310px;
+    max-width: 1310px;
+    margin-left: 285px;
     margin-right: 75px;
     margin-top: 50px;
 }
@@ -497,13 +503,13 @@ font-size: 25px;
 }
 
 .grid-container-sport{
-
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   padding: 20px;
-  margin-left: 150px;
+  margin-left: 180px;
   margin-top: 50px;
+  margin-bottom: 50px;
   gap: 10px;
   width: 1500px;
 }
@@ -659,3 +665,4 @@ font-size: 25px;
   color: #1d27b9;
   
 }
+
