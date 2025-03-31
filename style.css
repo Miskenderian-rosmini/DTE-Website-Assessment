@@ -6,14 +6,21 @@ body{
   color: white;
 }
 
+
 h1{
   color: #fff;
 }
 
 
+
+
 h2{
   color: #fff;
 }
+
+
+
+
 
 
 
@@ -24,9 +31,13 @@ a{
 }
 
 
+
+
 a:hover{
   color: #ffd700;
 }
+
+
 
 
 .navbar{
@@ -37,10 +48,14 @@ a:hover{
 }
 
 
+
+
 .rosmini_img{
   width: auto;
   height: 100px;
 }
+
+
 
 
 .sign_in{
@@ -52,10 +67,16 @@ a:hover{
 
 
 
+
+
+
+
 .second_nav{
   background-color: rgb(10, 14, 39);
   padding: 10px 0;
 }
+
+
 
 
 .second_nav ul{
@@ -66,9 +87,13 @@ a:hover{
 }
 
 
+
+
 .second_nav ul li{
   margin: 0 20px;
 }
+
+
 
 
 .second_nav ul li a{
@@ -79,10 +104,13 @@ a:hover{
 }
 
 
+
+
 .second_nav ul li a:hover{
   background-color: #1f3d74;
   transition: background-color 0.5s;
 }
+
 
 .slideshow-container{
   position: relative;
@@ -95,13 +123,16 @@ a:hover{
   background-color: #ffffff;
 }
 
+
 .mySlides{
   display: none;
 }
 
+
 .mySlides img{
   width: 100%;
 }
+
 
 .numbertext{
   position: absolute;
@@ -113,6 +144,8 @@ a:hover{
 }
 
 
+
+
 .text{
   position: absolute;
   bottom: 10px;
@@ -121,6 +154,8 @@ a:hover{
   color: #fff;
   padding: 5px;
 }
+
+
 
 
 .prev, .next{
@@ -136,14 +171,20 @@ a:hover{
 }
 
 
+
+
 .prev{
   left: 0;
 }
 
 
+
+
 .next{
   right: 0;
 }
+
+
 
 
 .dot{
@@ -157,9 +198,13 @@ a:hover{
 }
 
 
+
+
 .dot.active{
   background-color: #717171;
 }
+
+
 
 
 .grid-container{
@@ -168,15 +213,18 @@ a:hover{
   margin-left: 180px;
 }
 
+
 .box1{
   width: auto;
   height: 150px;
   border-radius: 8px;
 }
 
+
 .box1:hover {
   cursor:pointer;
 }
+
 
 .box2{
   width: auto;
@@ -184,9 +232,11 @@ a:hover{
   border-radius: 8px;
 }
 
+
 .box2:hover {
   cursor:pointer;
 }
+
 
 .box1-sport{
   width: 400px;
@@ -195,9 +245,13 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box1-sport:hover {
   cursor:pointer;
+  content: 'Hello';
+
 }
+
 
 .box2-sport{
   width: 600px;
@@ -206,9 +260,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box2-sport:hover {
   cursor:pointer;
 }
+
 
 .box3-sport{
   width: 484px;
@@ -217,9 +273,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box3-sport:hover {
   cursor:pointer;
 }
+
 
 .box4-sport{
   width: 200px;
@@ -228,9 +286,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box4-sport:hover {
   cursor:pointer;
 }
+
 
 .box5-sport{
   width: 600px;
@@ -239,9 +299,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box5-sport:hover {
   cursor:pointer;
 }
+
 
 .box6-sport{
   width: 684px;
@@ -250,9 +312,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box6-sport:hover {
   cursor:pointer;
 }
+
 
 .box7-sport{
   width: 600px;
@@ -261,9 +325,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box7-sport:hover {
   cursor:pointer;
 }
+
 
 .box8-sport{
   width: 200px;
@@ -272,9 +338,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box8-sport:hover {
   cursor:pointer;
 }
+
 
 .box9-sport{
   width: 684px;
@@ -283,9 +351,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box9-sport:hover {
   cursor:pointer;
 }
+
 
 .white-box-thing{
   background-color: #fff;
@@ -295,9 +365,13 @@ a:hover{
 }
 
 
+
+
 .white-box-thing h1{
   color: #000;
 }
+
+
 
 
 .eve{
@@ -310,15 +384,25 @@ a:hover{
 
 
 
+
+
+
+
 .date{
   color: #b91d1d;
 }
+
+
 
 
 .under{
   color: #0d229b;
   font-size: 25px;
 }
+
+
+
+
 
 
 
@@ -333,6 +417,10 @@ a:hover{
 
 
 
+
+
+
+
 .grid-container img{
   width: auto;
   height: 200px;
@@ -343,10 +431,18 @@ a:hover{
 
 
 
+
+
+
+
 .grid-container img:hover{
   opacity: 0.3;
   transition: opacity 0.5s;
 }
+
+
+
+
 
 
 
@@ -360,9 +456,14 @@ a:hover{
   align-items: center;
 }
 
+
 .modal-stuff{
   position: relative;
 }
+
+
+
+
 
 
 
@@ -379,10 +480,18 @@ margin-bottom: 20px;
 
 
 
+
+
+
+
 .inside-box, h2{
 color: #b91d1d;
 margin: 15px;
 }
+
+
+
+
 
 
 
@@ -395,6 +504,10 @@ margin: 15px;
 
 
 
+
+
+
+
 .button{
 margin: 15px;
 color: #0d229b;
@@ -403,9 +516,17 @@ color: #0d229b;
 
 
 
+
+
+
+
 .email-link{
 color: #0d229b;
 }
+
+
+
+
 
 
 
@@ -418,6 +539,10 @@ width: auto;
 
 
 
+
+
+
+
 .flex-container{
 display: flex;
 }
@@ -425,15 +550,22 @@ display: flex;
 
 
 
+
+
+
+
 footer{
   justify-content: center;
   text-align: center;
-  padding: 3px;
+  padding-left: 500px;
+  padding-right: 00px;
   background-color: rgb(19, 28, 79);
   color: white;
   display: flex;
   flex-direction: row;
 }
+
+
 
 
 .footimg {
@@ -442,10 +574,13 @@ footer{
   height: auto;
 }
 
+
 .footertext{
 color: white;
 font-size: 20px;
 }
+
+
 
 
 .img-background{
@@ -459,11 +594,19 @@ width: auto;
 
 
 
+
+
+
+
 .text-background, p{
 color: white;
 font-family: 'Times New Roman', Times, serif;
 font-size: 50px;
 }
+
+
+
+
 
 
 
@@ -474,6 +617,8 @@ font-size: 25px;
 }
 
 
+
+
 .white-background2-text{
   color: #1d27b9;
   font-size: 25px;
@@ -481,11 +626,15 @@ font-size: 25px;
   }
 
 
+
+
   .white-background2, h2{
     color: #b60c0c;
     font-size: 25px;
     padding: 10px;
     }
+
+
 
 
 .white-background2{
@@ -498,10 +647,13 @@ font-size: 25px;
 }
 
 
+
+
 .notices2 {
   display: flex;
   flex-direction: row;
 }
+
 
 .grid-container-sport{
   background-color: #ffffff;
@@ -515,10 +667,13 @@ font-size: 25px;
   width: 1500px;
 }
 
+
 .grid-container-sport img:hover{
   opacity: 0.5;
   transition: opacity 0.5s;
 }
+
+
 
 
 .Athletics{
@@ -526,10 +681,13 @@ font-size: 25px;
 }
 
 
+
+
 .Athletics-img{
   height: 400px;
   width: auto;
 }
+
 
 .white-background3-text{
   color: #1d27b9;
@@ -538,11 +696,15 @@ font-size: 25px;
   }
 
 
+
+
   .white-background3, h2{
     color: #b60c0c;
     font-size: 25px;
     padding: 10px;
     }
+
+
 
 
 .white-background3{
@@ -556,6 +718,7 @@ font-size: 25px;
     margin-bottom: 20px;
 }
 
+
 .Foong-img{
   height: 400px;
   width: auto;
@@ -563,11 +726,13 @@ font-size: 25px;
   padding-right: 10px;
 }
 
+
 .John-img{
   height: 400px;
   width: auto;
   border-radius: 200px;
 }
+
 
 .two_img{
   display: flex;
@@ -575,16 +740,20 @@ font-size: 25px;
   justify-content: center;
 }
 
+
 .two_img, p{
   color: #000;
 
+
 }
+
 
 .white-background4-text{
   color: #1d27b9;
   font-size: 25px;
   padding: 10px;
   }
+
 
 .white-background4{
     background-color: white;
@@ -596,11 +765,14 @@ font-size: 25px;
     margin-bottom: 20px;
 }
 
+
 .white-background5-text{
   color: #1d27b9;
   font-size: 25px;
   padding: 10px;
   }
+
+
 
 
 .white-background5{
@@ -615,11 +787,13 @@ font-size: 25px;
     margin-bottom: 20px;
 }
 
+
 .maggs-img{
   height: 250px;
   width: auto;
   border-radius: 200px;
 }
+
 
 .morrogh-img{
   height: 250px;
@@ -627,17 +801,20 @@ font-size: 25px;
   border-radius: 200px;
 }
 
+
 .latch-img{
   height: 250px;
   width: auto;
   border-radius: 200px;
 }
 
+
 .cooper-img{
   height: 250px;
   width: auto;
   border-radius: 200px;
 }
+
 
 .coopdawg {
   margin: 10px;
@@ -646,9 +823,11 @@ font-size: 25px;
   flex-direction: column;
 }
 
+
 .pragraph-Latchy{
   font-size: 25px;
 }
+
 
 .coopdawg p{
   margin: 10px;
@@ -657,38 +836,39 @@ font-size: 25px;
   flex-direction: column;
 }
 
+
 .Headux{
   justify-content: center;
   color: #1d27b9;
 }
 
+
 .jo-dale {
   color: #1d27b9;
-  
+ 
 }
+
 
 .col1 {
   margin-right: 20px;
   margin-bottom: 5px;
 }
 
+
 .col2 {
   margin-right: 20px;
   margin-bottom: 5px;
 }
+
 
 .col3 {
   margin-right: 20px;
   margin-bottom: 5px;
 }
 
-.col4 {
-  margin-right: 20px;
-  margin-bottom: 5px;
-}
+.IAmBetterThanJosh{
+  display: flex;
+  flex-direction: row;
 
-.col5 {
-  margin-right: 20px;
-  margin-bottom: 5px;
 }
 
