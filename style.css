@@ -7,6 +7,8 @@ body{
 }
 
 
+
+
 h1{
   color: #fff;
 }
@@ -14,9 +16,21 @@ h1{
 
 
 
+
+
+
+
 h2{
   color: #fff;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -33,9 +47,17 @@ a{
 
 
 
+
+
+
+
 a:hover{
   color: #ffd700;
 }
+
+
+
+
 
 
 
@@ -50,10 +72,18 @@ a:hover{
 
 
 
+
+
+
+
 .rosmini_img{
   width: auto;
   height: 100px;
 }
+
+
+
+
 
 
 
@@ -71,10 +101,22 @@ a:hover{
 
 
 
+
+
+
+
+
+
+
+
 .second_nav{
   background-color: rgb(10, 14, 39);
   padding: 10px 0;
 }
+
+
+
+
 
 
 
@@ -89,9 +131,17 @@ a:hover{
 
 
 
+
+
+
+
 .second_nav ul li{
   margin: 0 20px;
 }
+
+
+
+
 
 
 
@@ -106,10 +156,16 @@ a:hover{
 
 
 
+
+
+
+
 .second_nav ul li a:hover{
   background-color: #1f3d74;
   transition: background-color 0.5s;
 }
+
+
 
 
 .slideshow-container{
@@ -124,14 +180,20 @@ a:hover{
 }
 
 
+
+
 .mySlides{
   display: none;
 }
 
 
+
+
 .mySlides img{
   width: 100%;
 }
+
+
 
 
 .numbertext{
@@ -146,6 +208,10 @@ a:hover{
 
 
 
+
+
+
+
 .text{
   position: absolute;
   bottom: 10px;
@@ -154,6 +220,10 @@ a:hover{
   color: #fff;
   padding: 5px;
 }
+
+
+
+
 
 
 
@@ -173,6 +243,10 @@ a:hover{
 
 
 
+
+
+
+
 .prev{
   left: 0;
 }
@@ -180,9 +254,17 @@ a:hover{
 
 
 
+
+
+
+
 .next{
   right: 0;
 }
+
+
+
+
 
 
 
@@ -200,9 +282,17 @@ a:hover{
 
 
 
+
+
+
+
 .dot.active{
   background-color: #717171;
 }
+
+
+
+
 
 
 
@@ -214,6 +304,8 @@ a:hover{
 }
 
 
+
+
 .box1{
   width: auto;
   height: 150px;
@@ -221,9 +313,13 @@ a:hover{
 }
 
 
+
+
 .box1:hover {
   cursor:pointer;
 }
+
+
 
 
 .box2{
@@ -233,9 +329,13 @@ a:hover{
 }
 
 
+
+
 .box2:hover {
   cursor:pointer;
 }
+
+
 
 
 .box1-sport{
@@ -246,11 +346,16 @@ a:hover{
 }
 
 
+
+
 .box1-sport:hover {
   cursor:pointer;
   content: 'Hello';
 
+
 }
+
+
 
 
 .box2-sport{
@@ -261,9 +366,13 @@ a:hover{
 }
 
 
+
+
 .box2-sport:hover {
   cursor:pointer;
 }
+
+
 
 
 .box3-sport{
@@ -274,9 +383,13 @@ a:hover{
 }
 
 
+
+
 .box3-sport:hover {
   cursor:pointer;
 }
+
+
 
 
 .box4-sport{
@@ -287,9 +400,13 @@ a:hover{
 }
 
 
+
+
 .box4-sport:hover {
   cursor:pointer;
 }
+
+
 
 
 .box5-sport{
@@ -300,9 +417,13 @@ a:hover{
 }
 
 
+
+
 .box5-sport:hover {
   cursor:pointer;
 }
+
+
 
 
 .box6-sport{
@@ -313,9 +434,13 @@ a:hover{
 }
 
 
+
+
 .box6-sport:hover {
   cursor:pointer;
 }
+
+
 
 
 .box7-sport{
@@ -326,9 +451,13 @@ a:hover{
 }
 
 
+
+
 .box7-sport:hover {
   cursor:pointer;
 }
+
+
 
 
 .box8-sport{
@@ -339,9 +468,13 @@ a:hover{
 }
 
 
+
+
 .box8-sport:hover {
   cursor:pointer;
 }
+
+
 
 
 .box9-sport{
@@ -352,9 +485,13 @@ a:hover{
 }
 
 
+
+
 .box9-sport:hover {
   cursor:pointer;
 }
+
+
 
 
 .white-box-thing{
@@ -367,9 +504,17 @@ a:hover{
 
 
 
+
+
+
+
 .white-box-thing h1{
   color: #000;
 }
+
+
+
+
 
 
 
@@ -388,9 +533,21 @@ a:hover{
 
 
 
+
+
+
+
+
+
+
+
 .date{
   color: #b91d1d;
 }
+
+
+
+
 
 
 
@@ -399,6 +556,14 @@ a:hover{
   color: #0d229b;
   font-size: 25px;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -421,12 +586,28 @@ a:hover{
 
 
 
+
+
+
+
+
+
+
+
 .grid-container img{
   width: auto;
   height: 200px;
   cursor: pointer;
   transition: 0.3s;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -447,6 +628,14 @@ a:hover{
 
 
 
+
+
+
+
+
+
+
+
 .modal{
   display: none;
   position: fixed;
@@ -457,9 +646,19 @@ a:hover{
 }
 
 
+
+
 .modal-stuff{
   position: relative;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -484,10 +683,26 @@ margin-bottom: 20px;
 
 
 
+
+
+
+
+
+
+
+
 .inside-box, h2{
 color: #b91d1d;
 margin: 15px;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -508,6 +723,14 @@ margin: 15px;
 
 
 
+
+
+
+
+
+
+
+
 .button{
 margin: 15px;
 color: #0d229b;
@@ -520,9 +743,25 @@ color: #0d229b;
 
 
 
+
+
+
+
+
+
+
+
 .email-link{
 color: #0d229b;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -543,9 +782,25 @@ width: auto;
 
 
 
+
+
+
+
+
+
+
+
 .flex-container{
 display: flex;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -568,6 +823,10 @@ footer{
 
 
 
+
+
+
+
 .footimg {
   margin-top: 10px;
   width: 200px;
@@ -575,10 +834,16 @@ footer{
 }
 
 
+
+
 .footertext{
 color: white;
 font-size: 20px;
 }
+
+
+
+
 
 
 
@@ -590,6 +855,14 @@ border-radius: 30px;
 height: 300px;
 width: auto;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -611,10 +884,22 @@ font-size: 50px;
 
 
 
+
+
+
+
+
+
+
+
 .white-background1-text{
 color: #1d27b9;
 font-size: 25px;
 }
+
+
+
+
 
 
 
@@ -628,11 +913,19 @@ font-size: 25px;
 
 
 
+
+
+
+
   .white-background2, h2{
     color: #b60c0c;
     font-size: 25px;
     padding: 10px;
     }
+
+
+
+
 
 
 
@@ -649,10 +942,16 @@ font-size: 25px;
 
 
 
+
+
+
+
 .notices2 {
   display: flex;
   flex-direction: row;
 }
+
+
 
 
 .grid-container-sport{
@@ -668,10 +967,16 @@ font-size: 25px;
 }
 
 
+
+
 .grid-container-sport img:hover{
   opacity: 0.5;
   transition: opacity 0.5s;
 }
+
+
+
+
 
 
 
@@ -683,10 +988,16 @@ font-size: 25px;
 
 
 
+
+
+
+
 .Athletics-img{
   height: 400px;
   width: auto;
 }
+
+
 
 
 .white-background3-text{
@@ -698,11 +1009,19 @@ font-size: 25px;
 
 
 
+
+
+
+
   .white-background3, h2{
     color: #b60c0c;
     font-size: 25px;
     padding: 10px;
     }
+
+
+
+
 
 
 
@@ -719,12 +1038,16 @@ font-size: 25px;
 }
 
 
+
+
 .Foong-img{
   height: 400px;
   width: auto;
   border-radius: 200px;
   padding-right: 10px;
 }
+
+
 
 
 .John-img{
@@ -734,6 +1057,8 @@ font-size: 25px;
 }
 
 
+
+
 .two_img{
   display: flex;
   flex-direction: row;
@@ -741,11 +1066,17 @@ font-size: 25px;
 }
 
 
+
+
 .two_img, p{
   color: #000;
 
 
+
+
 }
+
+
 
 
 .white-background4-text{
@@ -753,6 +1084,8 @@ font-size: 25px;
   font-size: 25px;
   padding: 10px;
   }
+
+
 
 
 .white-background4{
@@ -766,11 +1099,17 @@ font-size: 25px;
 }
 
 
+
+
 .white-background5-text{
   color: #1d27b9;
   font-size: 25px;
   padding: 10px;
   }
+
+
+
+
 
 
 
@@ -788,11 +1127,15 @@ font-size: 25px;
 }
 
 
+
+
 .maggs-img{
   height: 250px;
   width: auto;
   border-radius: 200px;
 }
+
+
 
 
 .morrogh-img{
@@ -802,6 +1145,8 @@ font-size: 25px;
 }
 
 
+
+
 .latch-img{
   height: 250px;
   width: auto;
@@ -809,11 +1154,15 @@ font-size: 25px;
 }
 
 
+
+
 .cooper-img{
   height: 250px;
   width: auto;
   border-radius: 200px;
 }
+
+
 
 
 .coopdawg {
@@ -824,9 +1173,13 @@ font-size: 25px;
 }
 
 
+
+
 .pragraph-Latchy{
   font-size: 25px;
 }
+
+
 
 
 .coopdawg p{
@@ -837,10 +1190,14 @@ font-size: 25px;
 }
 
 
+
+
 .Headux{
   justify-content: center;
   color: #1d27b9;
 }
+
+
 
 
 .jo-dale {
@@ -849,10 +1206,14 @@ font-size: 25px;
 }
 
 
+
+
 .col1 {
   margin-right: 20px;
   margin-bottom: 5px;
 }
+
+
 
 
 .col2 {
@@ -861,14 +1222,23 @@ font-size: 25px;
 }
 
 
+
+
 .col3 {
   margin-right: 20px;
   margin-bottom: 5px;
 }
 
+
 .IAmBetterThanJosh{
   display: flex;
   flex-direction: row;
 
+
 }
+
+
+
+
+
 
