@@ -614,3 +614,11 @@ font-size: 25px;
   justify-content: center;
   align-items: center;
 }
+
+.img-background{
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 30px;
+  height: 275px;
+  width: auto;
+  }
