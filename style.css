@@ -1,3 +1,4 @@
+/*set the body foundation for thr whole website*/
 body{
   font-family: Arial, sans-serif;
   margin: 0;
@@ -23,6 +24,7 @@ a:hover{
   color: #ffd700;
 }
 
+/* Used to style navbar on all three pages */
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -30,6 +32,7 @@ a:hover{
   background-color: rgb(19, 28, 79);
 }
 
+/* School logo used in navbar */
 .rosmini_img{
   width: auto;
   height: 100px;
@@ -40,7 +43,7 @@ a:hover{
   height: 100px;
   margin-top: 10px;
 }
-
+/* Again the foundation set for all navbars spaning through the 3 pages including the navigation system used for my website */
 .second_nav{
   background-color: rgb(10, 14, 39);
   padding: 10px 0;
@@ -68,7 +71,7 @@ a:hover{
   background-color: #1f3d74;
   transition: background-color 0.5s;
 }
-
+/*carasol (used online help)*/
 .slideshow-container{
   position: relative;
   max-width: 100%;
@@ -166,6 +169,7 @@ a:hover{
   cursor:pointer;
 }
 
+/* styled the 9 img grid on the sports page*/
 .box1-sport{
   width: 400px;
   height: 350px;
@@ -176,8 +180,6 @@ a:hover{
 .box1-sport:hover {
   cursor:pointer;
   content: 'Hello';
-
-
 }
 
 .box2-sport{
@@ -268,6 +270,7 @@ a:hover{
   cursor:pointer;
 }
 
+/*used on the home page as a foundation (white box) to put info,imgs, ect...*/
 .white-box-thing{
   background-color: #fff;
   padding: 20px;
@@ -314,6 +317,7 @@ a:hover{
   transition: opacity 0.5s;
 }
 
+/* modal (makes img transperent when hovered upon) used for all imgs exept staff page*/
 .modal{
   display: none;
   position: fixed;
@@ -327,6 +331,7 @@ a:hover{
   position: relative;
 }
 
+/* Reponsable for the white bacround of the SchoolBridge KAMAR instructions, as well as the Daily Notices*/
 .white-background1{
 background-color: white;
 border-radius: 20px;
@@ -364,6 +369,7 @@ width: auto;
 display: flex;
 }
 
+/* Responsable for almost everything in the footer */
 footer{
   justify-content: center;
   text-align: center;
@@ -433,7 +439,7 @@ font-size: 25px;
   display: flex;
   flex-direction: row;
 }
-
+/* sets the grid used for the 9 imgs on the sports page */
 .grid-container-sport{
   background-color: #ffffff;
   display: flex;
@@ -445,7 +451,7 @@ font-size: 25px;
   gap: 10px;
   width: 1500px;
 }
-
+/* Allows for mouse hover interactions in said 9 img grid*/
 .grid-container-sport img:hover{
   opacity: 0.5;
   transition: opacity 0.5s;
@@ -483,6 +489,7 @@ font-size: 25px;
     margin-bottom: 20px;
 }
 
+/* Styles the two imgs used in the Digital Technology section in the staff page */
 .Foong-img{
   height: 400px;
   width: auto;
@@ -522,12 +529,14 @@ font-size: 25px;
     margin-bottom: 20px;
 }
 
+
 .white-background5-text{
   color: #1d27b9;
   font-size: 25px;
   padding: 10px;
   }
 
+/* is the box used for the Geography section */
 .white-background5{
     text-align: center;
     justify-content: center;
@@ -540,6 +549,7 @@ font-size: 25px;
     margin-bottom: 20px;
 }
 
+/* Styles the two imgs used in the Geography section in the staff page */
 .maggs-img{
   height: 250px;
   width: auto;
