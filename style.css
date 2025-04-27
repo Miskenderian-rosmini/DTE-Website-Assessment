@@ -3,7 +3,7 @@ body{
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(16, 44, 128);
+  background-color: rgb( 0,84,162);
   color: white;
 }
 
@@ -29,7 +29,7 @@ a:hover{
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: rgb(19, 28, 79);
+  background-color: rgb( 0,84,162);
 }
 
 /* School logo used in navbar */
@@ -45,8 +45,9 @@ a:hover{
 }
 /* Again the foundation set for all navbars spaning through the 3 pages including the navigation system used for my website */
 .second_nav{
-  background-color: rgb(10, 14, 39);
-  padding: 10px 0;
+  background-color: rgb(92, 138, 225);
+  padding: 9px 0;
+  border-radius: 5px;
 }
 
 .second_nav ul{
@@ -61,14 +62,14 @@ a:hover{
 }
 
 .second_nav ul li a{
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 5px;
 }
 
 .second_nav ul li a:hover{
-  background-color: #1f3d74;
+  background-color: rgb(10, 75, 136);
   transition: background-color 0.5s;
 }
 /*carasol (used online help)*/
@@ -631,4 +632,12 @@ font-size: 25px;
   border-radius: 30px;
   height: 275px;
   width: auto;
+  }
+
+  .img-background2{
+    height: 275px;
+    width: auto;
+    border-radius: 30px;
+    padding-left: 80px;
+    padding-top: 10px;
   }
