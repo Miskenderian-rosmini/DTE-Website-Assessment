@@ -7,36 +7,43 @@ body{
   color: white;
 }
 
+
 h1{
   color: #fff;
 }
 
+
 h2{
   color: #fff;
 }
+
 
 a{
   color: #fff;
   text-decoration: none;
 }
 
+
 a:hover{
-  color: #ffd700;
+  color: rgb( 0,84,162);
 }
+
 
 /* Used to style navbar on all three pages */
 .navbar{
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: rgb( 0,84,162);
+  background-color: rgb(0,84,162);
 }
+
 
 /* School logo used in navbar */
 .rosmini_img{
   width: auto;
   height: 100px;
 }
+
 
 .sign_in{
   width: auto;
@@ -45,10 +52,11 @@ a:hover{
 }
 /* Again the foundation set for all navbars spaning through the 3 pages including the navigation system used for my website */
 .second_nav{
-  background-color: rgb(92, 138, 225);
+  background-color: rgb( 0,84,162);
   padding: 9px 0;
   border-radius: 5px;
 }
+
 
 .second_nav ul{
   list-style: none;
@@ -57,9 +65,11 @@ a:hover{
   margin: 0;
 }
 
+
 .second_nav ul li{
   margin: 0 20px;
 }
+
 
 .second_nav ul li a{
   color: rgb(255, 255, 255);
@@ -68,8 +78,9 @@ a:hover{
   border-radius: 5px;
 }
 
+
 .second_nav ul li a:hover{
-  background-color: rgb(10, 75, 136);
+  background-color: rgb( 0,84,162);
   transition: background-color 0.5s;
 }
 /*carasol (used online help)*/
@@ -84,13 +95,16 @@ a:hover{
   background-color: #ffffff;
 }
 
+
 .mySlides{
   display: none;
 }
 
+
 .mySlides img{
   width: 100%;
 }
+
 
 .numbertext{
   position: absolute;
@@ -101,6 +115,7 @@ a:hover{
   padding: 10px;
 }
 
+
 .text{
   position: absolute;
   bottom: 10px;
@@ -109,6 +124,7 @@ a:hover{
   color: #fff;
   padding: 5px;
 }
+
 
 .prev, .next{
   position: absolute;
@@ -122,13 +138,16 @@ a:hover{
   user-select: none;
 }
 
+
 .prev{
   left: 0;
 }
 
+
 .next{
   right: 0;
 }
+
 
 .dot{
   height: 15px;
@@ -140,9 +159,11 @@ a:hover{
   transition: background-color 0.6s ease;
 }
 
+
 .dot.active{
   background-color: #717171;
 }
+
 
 .grid-container{
   display: grid;
@@ -150,15 +171,18 @@ a:hover{
   margin-left: 180px;
 }
 
+
 .box1{
   width: auto;
   height: 150px;
   border-radius: 8px;
 }
 
+
 .box1:hover {
   cursor:pointer;
 }
+
 
 .box2{
   width: auto;
@@ -166,9 +190,11 @@ a:hover{
   border-radius: 8px;
 }
 
+
 .box2:hover {
   cursor:pointer;
 }
+
 
 /* styled the 9 img grid on the sports page*/
 .box1-sport{
@@ -178,10 +204,12 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box1-sport:hover {
   cursor:pointer;
   content: 'Hello';
 }
+
 
 .box2-sport{
   width: 600px;
@@ -190,9 +218,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box2-sport:hover {
   cursor:pointer;
 }
+
 
 .box3-sport{
   width: 484px;
@@ -201,9 +231,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box3-sport:hover {
   cursor:pointer;
 }
+
 
 .box4-sport{
   width: 200px;
@@ -212,9 +244,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box4-sport:hover {
   cursor:pointer;
 }
+
 
 .box5-sport{
   width: 600px;
@@ -223,9 +257,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box5-sport:hover {
   cursor:pointer;
 }
+
 
 .box6-sport{
   width: 684px;
@@ -234,9 +270,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box6-sport:hover {
   cursor:pointer;
 }
+
 
 .box7-sport{
   width: 600px;
@@ -245,9 +283,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box7-sport:hover {
   cursor:pointer;
 }
+
 
 .box8-sport{
   width: 200px;
@@ -256,9 +296,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box8-sport:hover {
   cursor:pointer;
 }
+
 
 .box9-sport{
   width: 684px;
@@ -267,9 +309,11 @@ a:hover{
   object-fit: cover;
 }
 
+
 .box9-sport:hover {
   cursor:pointer;
 }
+
 
 /*used on the home page as a foundation (white box) to put info,imgs, ect...*/
 .white-box-thing{
@@ -279,9 +323,11 @@ a:hover{
   border-radius: 8px;
 }
 
+
 .white-box-thing h1{
   color: #000;
 }
+
 
 .eve{
   display: flex;
@@ -290,14 +336,17 @@ a:hover{
   border-bottom: 1px solid #ccc;
 }
 
+
 .date{
   color: #b91d1d;
 }
+
 
 .under{
   color: #0d229b;
   font-size: 25px;
 }
+
 
 .grid-container{
   display: flex;
@@ -306,6 +355,7 @@ a:hover{
   padding: 20px;
 }
 
+
 .grid-container img{
   width: auto;
   height: 200px;
@@ -313,10 +363,12 @@ a:hover{
   transition: 0.3s;
 }
 
+
 .grid-container img:hover{
   opacity: 0.3;
   transition: opacity 0.5s;
 }
+
 
 /* modal (makes img transperent when hovered upon) used for all imgs exept staff page*/
 .modal{
@@ -328,9 +380,11 @@ a:hover{
   align-items: center;
 }
 
+
 .modal-stuff{
   position: relative;
 }
+
 
 /* Reponsable for the white bacround of the SchoolBridge KAMAR instructions, as well as the Daily Notices*/
 .white-background1{
@@ -342,33 +396,40 @@ margin-right: 75px;
 margin-bottom: 20px;
 }
 
+
 .inside-box, h2{
 color: #b91d1d;
 margin: 15px;
 }
+
 
 .inside-box, p{
 color: #0d229b;
 margin: 15px;
 }
 
+
 .button{
 margin: 15px;
 color: #0d229b;
 }
 
+
 .email-link{
 color: #0d229b;
 }
+
 
 .SchoolBridge-img{
 height: 80px;
 width: auto;
 }
 
+
 .flex-container{
 display: flex;
 }
+
 
 /* Responsable for almost everything in the footer */
 footer{
@@ -382,6 +443,7 @@ footer{
   padding-left: 120px;
 }
 
+
 .footimg {
   margin-top: 10px;
   width: 200px;
@@ -389,12 +451,14 @@ footer{
   display: flex;
 }
 
+
 .footertext{
 color: white;
 font-size: 20px;
 margin-right: 100px;
 margin-left: 100px;
 }
+
 
 .img-background{
 text-align: center;
@@ -404,16 +468,19 @@ height: 300px;
 width: auto;
 }
 
+
 .text-background, p{
 color: white;
 font-family: 'Times New Roman', Times, serif;
 font-size: 50px;
 }
 
+
 .white-background1-text{
 color: #1d27b9;
 font-size: 25px;
 }
+
 
 .white-background2-text{
   color: #1d27b9;
@@ -421,11 +488,13 @@ font-size: 25px;
   padding: 10px;
   }
 
+
   .white-background2, h2{
     color: #b60c0c;
     font-size: 25px;
     padding: 10px;
     }
+
 
 .white-background2{
     background-color: white;
@@ -435,6 +504,7 @@ font-size: 25px;
     margin-right: 75px;
     margin-top: 50px;
 }
+
 
 .notices2 {
   display: flex;
@@ -458,14 +528,17 @@ font-size: 25px;
   transition: opacity 0.5s;
 }
 
+
 .Athletics{
   margin-left: 15px;
 }
+
 
 .Athletics-img{
   height: 400px;
   width: auto;
 }
+
 
 .white-background3-text{
   color: #1d27b9;
@@ -473,11 +546,13 @@ font-size: 25px;
   padding: 10px;
   }
 
+
   .white-background3, h2{
     color: #b60c0c;
     font-size: 25px;
     padding: 10px;
     }
+
 
 .white-background3{
     text-align: center;
@@ -490,6 +565,7 @@ font-size: 25px;
     margin-bottom: 20px;
 }
 
+
 /* Styles the two imgs used in the Digital Technology section in the staff page */
 .Foong-img{
   height: 400px;
@@ -498,11 +574,13 @@ font-size: 25px;
   padding-right: 10px;
 }
 
+
 .John-img{
   height: 400px;
   width: auto;
   border-radius: 200px;
 }
+
 
 .two_img{
   display: flex;
@@ -510,9 +588,11 @@ font-size: 25px;
   justify-content: center;
 }
 
+
 .two_img, p{
   color: #000;
 }
+
 
 .white-background4-text{
   color: #1d27b9;
@@ -530,12 +610,12 @@ font-size: 25px;
     margin-bottom: 20px;
 }
 
-
 .white-background5-text{
   color: #1d27b9;
   font-size: 25px;
   padding: 10px;
   }
+
 
 /* is the box used for the Geography section */
 .white-background5{
@@ -550,6 +630,7 @@ font-size: 25px;
     margin-bottom: 20px;
 }
 
+
 /* Styles the two imgs used in the Geography section in the staff page */
 .maggs-img{
   height: 250px;
@@ -557,11 +638,13 @@ font-size: 25px;
   border-radius: 200px;
 }
 
+
 .morrogh-img{
   height: 250px;
   width: auto;
   border-radius: 200px;
 }
+
 
 .latch-img{
   height: 250px;
@@ -569,11 +652,13 @@ font-size: 25px;
   border-radius: 200px;
 }
 
+
 .cooper-img{
   height: 250px;
   width: auto;
   border-radius: 200px;
 }
+
 
 .coopdawg {
   margin: 10px;
@@ -582,9 +667,11 @@ font-size: 25px;
   flex-direction: column;
 }
 
+
 .pragraph-Latchy{
   font-size: 25px;
 }
+
 
 .coopdawg p{
   margin: 10px;
@@ -593,31 +680,38 @@ font-size: 25px;
   flex-direction: column;
 }
 
+
 .Headux{
   justify-content: center;
   color: #1d27b9;
 }
+
 
 .jo-dale {
   color: #1d27b9;
  
 }
 
+
 .col1 {
   margin-right: 20px;
   margin-bottom: 5px;
 }
 
+
 .col2 {
+
 
   margin-right: 20px;
   margin-bottom: 5px;
 }
+
 
 .col3 {
   margin-right: 20px;
   margin-bottom: 5px;
 }
+
 
 .IAmBetterThanJosh{
   display: flex;
@@ -625,6 +719,7 @@ font-size: 25px;
   justify-content: center;
   align-items: center;
 }
+
 
 .img-background{
   text-align: center;
@@ -634,10 +729,46 @@ font-size: 25px;
   width: auto;
   }
 
+
   .img-background2{
     height: 275px;
     width: auto;
     border-radius: 30px;
-    padding-left: 80px;
+    margin-left: 160px;
     padding-top: 10px;
   }
+
+.second_nav ul {
+        display: flex;
+		flex-direction: row;
+        position: relative;
+        color: rgb(196, 16, 16);
+      }
+
+      .second_nav a {
+        position: relative;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .second_nav a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: -2px;
+        left: 0;
+        background-color: rgb(196, 16, 16);
+        transform-origin: bottom left;
+        transition: transform 0.3s ease-out;
+      }
+
+      .second_nav a:hover::before {
+        transform: scaleX(1);
+      }
+
+.navtext{
+	text-size: 30px;
+	color: white;
+}
